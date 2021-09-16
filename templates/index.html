@@ -30,29 +30,34 @@
   
   <link rel="stylesheet" type="text/css" href="static/css/topbar.virtual.css">
 </head>
-<body class="theme-red">
+
+<!-- default color -->
+<body class="theme-green">
   
   <!-- Back to top button -->
   <div class="btn-back_to_top">
     <span class="ti-arrow-up"></span>
   </div>
-  
-  <!-- Setting button -->
+
+
+  <!-- Setting button -- Floating menu
   <div class="config">
     <div class="template-config">
-      <!-- Settings -->
+
+
       <div class="d-block">
         <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-settings"></span></button>
       </div>
-      <!-- Puschase -->
+
       <div class="d-block">
         <a href="https://macodeid.com/projects/virtual-folio/" class="btn btn-fab btn-sm" title="Get this template" data-toggle="tooltip" data-placement="left"><span class="ti-download"></span></a>
       </div>
-      <!-- Help -->
+
       <div class="d-block">
         <a href="#" class="btn btn-fab btn-sm" title="Help" data-toggle="tooltip" data-placement="left"><span class="ti-help"></span></a>
       </div>
     </div>
+
     <div class="set-menu">
       <p>Select Color</p>
       <div class="color-bar" data-toggle="selected">
@@ -70,8 +75,10 @@
         <option value="blog-minibar">Blog (Minibar)</option>
       </select>
     </div>
+
   </div>
-  
+-->
+
   <div class="vg-page page-home" id="home" style="background-image: url(static/img/bg_image_1.jpg)">
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
@@ -148,12 +155,15 @@ Extensive experience in banking electronic transactions,  innovation and strateg
             <li><b>Lives In:</b> Mexico City</li>
             <li><b>Age:</b> 42</li>
           </ul>
-          <button class="btn btn-theme-outline">Download CV</button>
+          <a href="static/pdf/OscarMejiaAhuatlResume.pdf" download="OscarMejiaResume.pdf">
+          <button class="btn btn-theme-outline" >Download CV</button>
+          </a>
         </div>
       </div>
     </div>
-    <!-- My skills -->
 
+
+    <!-- My skills -->
   <div class="vg-page page-portfolio" id="skills">
     <div class="container py-5">
       <h1 class="text-center fw-normal wow fadeIn">My Skills</h1>
@@ -246,7 +256,7 @@ Extensive experience in banking electronic transactions,  innovation and strateg
 
     <!-- education & experience -->
   <div class="vg-page page-portfolio" id="education">
-    <div class="container pt-5" ">
+    <div class="container pt-5">
       <div class="row">
         <div class="col-md-6 wow fadeInRight">
           <h2 class="fw-normal">Education</h2>
@@ -333,85 +343,86 @@ Extensive experience in banking electronic transactions,  innovation and strateg
   <div class="vg-page page-portfolio" id="services">
     <div class="vg-page page-service">
       <div class="container">
+        <!-- button
         <div class="text-center wow fadeInUp">
-          <div class="badge badge-subhead">Service</div>
+          <div class="badge badge-subhead">Services</div>
         </div>
-        <h1 class="fw-normal text-center wow fadeInUp">What can i do?</h1>
+        -->
+        <h1 class="fw-normal text-center wow fadeInUp">What I can do</h1>
         <div class="row mt-5">
           <div class="col-md-6 col-lg-4 col-xl-3">
             <div class="card card-service wow fadeInUp">
               <div class="icon">
-                <span class="ti-paint-bucket"></span>
+                <span class="ti-exchange-vertical"></span>
               </div>
               <div class="caption">
                 <h4 class="fg-theme">Management</h4>
-                <p>
-                  		<li>Relationgship management</li>
-		<li>Technical management</li>
-		<li>Capacity management</li>
-		<li>Incident management</li>
-		<li>Governance</li>
-		<li>Budget Control</li>
-		<li>Applications administration</li>
-		<li>project Analysis</li>
-		<li>Request completition</li>
-
-                </p>
+                  <ul>
+                    <li>Teams management</li>
+                    <li>Technical management</li>
+                    <li>Capacity management</li>
+                    <li>Incident management</li>
+                    <li>Governance</li>
+                    <li>Budget Control</li>
+                    <li>Apps Administration</li>
+                    <li>project Analysis</li>
+                    <li>Request completion</li>
+                  </ul>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 col-xl-3">
             <div class="card card-service wow fadeInUp">
               <div class="icon">
-                <span class="ti-search"></span>
+                <span class="ti-layout-menu-v"></span>
               </div>
               <div class="caption">
                 <h4 class="fg-theme">EA & IT Architect</h4>
-                <p>
-                		<li>Design by EA Domains</li>
-		<li>Processes Analysis</li>
-		<li>Project Definitions</li>
-		<li>Risk Management</li>
-		<li>Software design</li>
-		<li>Database definitions</li>
-		<li>Data Transformation</li>
-		<li>Infraestructure Design</li>
-		<li>Cloud Computing</li>
-		<li>Cloud Realibility and performance efficiency</li>
-		<li>Security</li>
-
-                </p>
+                <ul>
+                  <li>Design by EA Domains</li>
+                  <li>Processes Analysis</li>
+                  <li>Project Definitions</li>
+                  <li>Risk Management</li>
+                  <li>Software design</li>
+                  <li>Database definitions</li>
+                  <li>Data Transformation</li>
+                  <li>Infraestructure Design</li>
+                  <li>Cloud Computing</li>
+                  <li>Cloud Realibility
+                  <li>Cloud performance</li>
+                  <li>Security</li>
+                </ul>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 col-xl-3">
             <div class="card card-service wow fadeInUp">
               <div class="icon">
-                <span class="ti-vector"></span>
+                <span class="ti-calendar"></span>
               </div>
               <div class="caption">
                 <h4 class="fg-theme">Scrum</h4>
-                <p>
+                <ul>
                 <li>Product Owner Role</li>
         		<li>Scrum Master Role</li>
 		      <li>Atlassian JIRA</li>
-                </p>
+                </ul>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 col-xl-3">
             <div class="card card-service wow fadeInUp">
               <div class="icon">
-                <span class="ti-desktop"></span>
+                <span class="ti-harddrives"></span>
               </div>
               <div class="caption">
                 <h4 class="fg-theme">Development</h4>
-                <p style="text-align:left;">
+                <ul>
                   <li>Python Coding</li>
                   <li>NodeJS Coding</li>
                   <li>REST/API</li>
                   <li>SQL scripting</li>
-                </p>
+                </ul>
               </div>
             </div>
           </div>
